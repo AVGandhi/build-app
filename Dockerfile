@@ -6,13 +6,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     git \
     make \
-    busybox \
     build-essential \
-    nodejs \
-    npm \
-    screen \
-    neofetch \
-    ca-certificates \
     libcurl4 \
     libjansson4 \
     libgomp1 \

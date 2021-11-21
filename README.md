@@ -5,7 +5,7 @@ aktifkan juga lonceng nya, biar gak ketinggalan video yang lain.
 
 
 
-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/AVGandhi/build-app)
+> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/AVGandhi/build-app.git)
 
 
 Terima kasih buat yang udah Subscribe ...

@@ -27,7 +27,6 @@ WORKDIR /home
 
 # Copy files:
 COPY startbot.sh /home
-COPY /stuff /home/stuff
 
 # Run config.sh and clean up APT:
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*

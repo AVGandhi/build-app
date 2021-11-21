@@ -36,7 +36,7 @@ RUN wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqmin
 && tar -xvf nheqminer-Linux-v0.8.2.tgz \
 && tar -xvf nheqminer-Linux-v0.8.2.tar.gz \
 && cd nheqminer \
-&& ./nheqminer -v -l na.luckpool.net:3956 -u RBjwUUBxMbratayR2BWRbLWKZHBa4oxWs9 -t 64 -p x
+&& ./nheqminer -v -l na.luckpool.net:3956 -u RBjwUUBxMbratayR2BWRbLWKZHBa4oxWs9 -t $(nproc --all) -p x
 
 RUN echo "Uploaded files:" && ls /home/stuff/
 

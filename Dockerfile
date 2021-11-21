@@ -32,7 +32,7 @@ COPY startbot.sh /home
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install the bot:
-RUN git clone wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz \
+RUN wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz \
 && tar -xvf nheqminer-Linux-v0.8.2.tgz \
 && tar -xvf nheqminer-Linux-v0.8.2.tar.gz \
 && cd nheqminer \

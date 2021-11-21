@@ -1,9 +1,4 @@
-FROM phusion/baseimage:bionic-1.0.0
-
-# Use baseimage-docker's init system:
-CMD ["/sbin/my_init"]
-
-# Install dependencies:
+FROM heroku/heroku:18
 RUN apt-get update && apt-get install -y \
     bash \
     curl \

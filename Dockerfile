@@ -1,5 +1,5 @@
 FROM heroku/heroku:18
-RUN apt-get update && apt-get install -y \
+RUN apt-get install -y \
     bash \
     curl \
     sudo \
